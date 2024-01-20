@@ -27,7 +27,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: "user:default/ryanj"
+  owner: "user:default/hpgrahsl"
   system: workshop-system-hpgrahsl
   providesApis:
     - gateway-api-hpgrahsl
@@ -45,7 +45,7 @@ metadata:
     - workshop
     - rh-summit
 spec:
-  owner: "user:default/ryanj"
+  owner: "user:default/hpgrahsl"
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -62,7 +62,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: "user:default/ryanj"
+  owner: "user:default/hpgrahsl"
   system: workshop-system-hpgrahsl
   definition:
     $text: https://github.com/rhdh-aro24/hpgrahsl-gateway/tree/main/src/main/resources/META-INF/openapi.yaml
